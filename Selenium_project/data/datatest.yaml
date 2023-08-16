@@ -1,0 +1,20 @@
+- common: &common
+    url: http://www.baidu.com
+    input:
+      name: id
+      value: kw
+    click:
+      name: id
+      value: su
+    sleep: 3
+    txt: 美秀集团
+
+-
+  common:
+    <<: *common
+    txt: 柏林护士
+
+-
+  common:
+    <<: *common
+    txt: 婷文
